@@ -1,6 +1,8 @@
 body {
   font-family: "Montserrat", sans-serif;
   text-align: center;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 h1,
@@ -128,8 +130,10 @@ p {
   line-height: 1.5;
   font-weight: bold;
 }
-.pricing-column {
-  padding: 3% 2%;
+.card{
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
 }
 @media (max-width: 1028px) {
   #title {
@@ -141,7 +145,26 @@ p {
   }
 }
 
-
 .social-icon {
   margin: 20px 10px;
 }
+
+@media (max-width: 767.98px) {
+  .big-heading {
+    font-size: 3em;
+  }
+  .testimonial-text {
+    font-size: 2em;
+  }
+  .section-heading {
+    font-size: 2em;
+  }
+  .card-header  {
+    font-size: 1em;
+  }
+  .card{
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+  }
+ }
